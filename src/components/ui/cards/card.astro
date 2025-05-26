@@ -1,0 +1,13 @@
+---
+const { text, url } = Astro.props;
+---
+
+<a
+  href={url}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="flex items-center justify-center w-full h-10 rounded-lg bg-gradient-to-br cursor-pointer bg-neutral-600 
+  hover:scale-105 hover:shadow-xl transition-transform duration-300 text-white text-sm font-semibold leading-[150%] hover:bg-neutral-700"
+>
+  {text}
+</a>
